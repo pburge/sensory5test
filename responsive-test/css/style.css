@@ -1,0 +1,79 @@
+/* 
+
+INSTRUCTIONS 
+
+Using CSS, turn this fixed-width design 
+into a responsive design that will adapt
+to the any size viewport. 
+
+Bonus points for making an adaptive design 
+instead, that can change through CSS or JS 
+to better fit the viewport and make for a
+better user experience. 
+
+Good luck and have fun with it!
+
+*/
+
+* {
+  box-sizing: border-box; 
+}
+
+.page-wrap {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.main-story {
+  position: relative;
+  margin: 0 0 25px 0;
+}
+
+img {
+  display: block; 
+}
+
+a {
+  color: lightblue;
+}
+
+.story-intro {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+   font-size: 4em;
+}
+h1, h2 {
+  margin: 0 0 10px 0;
+}
+
+.story-intro h1 {
+  font-size: 2.5em; 
+}
+.story-intro p {
+  margin: 0;
+}
+
+.sub-stories {
+  overflow: hidden;
+  margin: 0 0 25px 0;
+}
+
+.sub-story {
+  float: left;
+  width: 250px;
+  margin-right: 25px;
+  position: relative;
+  font-size: 80%;
+}
+
+.last {
+  margin-right: 0;
+}

@@ -1,0 +1,28 @@
+/** 
+
+INSTRUCTIONS 
+
+Using CSS and any additional HTML markup 
+you feel is necessary, turn this unordered 
+list into a horizontal top-level menu that
+could be used on a website. 
+
+** Bonus points ** 
+
+Get bonus points for making the submenu items 
+hidden by default and reveal when Page Two
+is hovered over.
+
+Get bonus points for a spectular CSS design! 
+
+Get bonus points by using transitions to 
+show the submenus. 
+
+Good luck and have fun with it!
+
+*/
+
+.menu {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}

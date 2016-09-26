@@ -1,0 +1,26 @@
+/*
+
+INSTRUCTIONS
+
+The button in the following image was created with CSS:
+
+http://packages.sensory5.com/images/css-test.png
+
+Your job is to recreate, using CSS properties alone, 
+the button depicted in the image above. 
+
+Spend no longer than 30 minutes on it, I don't 
+expect it to be a perfect match. It's open book, 
+and you may use Google for research, but be 
+prepared to explain your solution.
+
+Good luck and have fun with it!
+
+*/
+.original { 
+  display: block; 
+}
+
+a {
+    
+}
